@@ -41,6 +41,8 @@ export default function Page() {
   );
 }
 
+'use client';
+
 function EmailCapture() {
   return (
     <form
@@ -69,3 +71,4 @@ function EmailCapture() {
     </form>
   );
 }
+
