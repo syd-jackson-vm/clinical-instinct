@@ -1,3 +1,5 @@
+'use client';
+
 import clsx from 'clsx';
 import { Metadata } from 'next';
 
@@ -40,8 +42,6 @@ export default function Page() {
     </main>
   );
 }
-
-'use client';
 
 function EmailCapture() {
   return (
